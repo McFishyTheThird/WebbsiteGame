@@ -1,0 +1,28 @@
+@keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -1000px -355px;}
+}
+@-webkit-keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -1000px -355px;}
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Blobfish-psychrolutes-marcidus.webp");
+    background-size: 500px;
+    background-repeat: repeat;
+    -webkit-animation: backgroundScroll 1s linear infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 1s linear infinite;
+    animation-fill-mode: forwards;
+    color:cornflowerblue;
+}
+canvas{
+    box-shadow: black 20px 10px 50px;
+    
+}
